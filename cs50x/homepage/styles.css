@@ -1,0 +1,82 @@
+.light-theme {
+    background-color: #FFFFFF;
+    color: #000000;
+    }
+
+.dark-theme {
+    background-color: #000000;
+    color: #FFFFFF;
+    }
+
+#greeting {
+    text-align: center;
+    margin: 20px;
+    }
+
+div, h1, h2, p {
+    margin: 0;
+    padding: 0;
+    }
+
+h1, h2 {
+    font-weight: normal;
+    text-align: center;
+    }
+
+h1 {
+	font-size: 34px;
+	line-height: 1.2;
+	margin-bottom: 10px;
+    }
+
+h2 {
+    color: #666;
+    font-size: 18px;
+    font-style: italic;
+    margin-bottom: 30px;
+    }
+
+h2:before {
+	content: '— ';
+    }
+
+h2:after {
+	content: ' —';
+    }
+
+.poem {
+    margin: auto;
+    padding: 20px 0;
+    text-align: left;
+    width: 390px;
+}
+
+p {
+    font: 14px Baskerville, "Palatino Linotype", "Times New Roman", Times, serif;
+	text-align: center;
+    line-height: 1.5;
+	margin-bottom: 15px;
+
+}
+
+.poem h2 + p:first-letter {
+    font-size: 38px;
+	line-height: 1;
+	margin: 2px 5px 0 0;
+    }
+
+.poem p:last-child {
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    }
+
+.poem p:first-line {
+	font-variant: small-caps;
+	letter-spacing: 1px;
+    }
+
+/*
+#carouselExampleDark {
+    margin: 0 20% 0 20%;
+    }
+*/

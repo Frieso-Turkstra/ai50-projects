@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link href="styles.css" rel="stylesheet">
+
+        <title>My Webpage</title>
+    </head>
+    <body>
+
+        <!--NAVBAR-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">My-website</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link" href="index.html">Home</a>
+                        <a class="nav-link" href="pagetwo.html">Nietzsche</a>
+                        <a class="nav-link active" aria-current="page" href="#">Shakespeare</a>
+                        <a class="nav-link" href="pagefour.html">Frieso</a>
+                        <div class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Theme</a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><button onclick="changeThemeEvent(event)" class="dropdown-item">Dark</button></li>
+                                <li><button onclick="changeThemeEvent(event)" class="dropdown-item">Light</button></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <!--SONNET XVIII-->
+        <div class="poem">
+            <h1>Sonnet XVIII</h1>
+            <h2>By William Shakespeare, 1609</h2>
+            <p>Shall I compare thee to a summer&#39;s day?<br />
+            Thou art more lovely and more temperate:<br />
+            Rough winds do shake the darling buds of May,<br />
+            And summer&#39;s lease hath all too short a date;</p>
+
+            <p>Sometime too hot the eye of heaven shines,<br />
+            And often is his gold complexion dimm'd;<br />
+            And every fair from fair sometime declines,<br />
+            By chance or nature&#39;s changing course untrimm'd;</p>
+
+            <p>But thy eternal summer shall not fade,<br />
+            Nor lose possession of that fair thou ow&#39;st;<br />
+            Nor shall death brag thou wander&#39;st in his shade,<br />
+            When in eternal lines to time thou grow&#39;st:</p>
+
+            <p>So long as men can breathe or eyes can see,<br />
+            So long lives this, and this gives life to thee.</p>
+        </div>
+
+        <!--SCRIPTS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <script src="app.js"></script>
+        <noscript>You need to enable Javascript to view the full site</noscript>
+    </body>
+</html>

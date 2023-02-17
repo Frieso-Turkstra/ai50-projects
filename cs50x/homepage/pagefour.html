@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link href="styles.css" rel="stylesheet">
+
+        <title>My Webpage</title>
+    </head>
+    <body>
+
+        <!--NAVBAR-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">My-website</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link" href="index.html">Home</a>
+                        <a class="nav-link" href="pagetwo.html">Nietzsche</a>
+                        <a class="nav-link" href="pagethree.html">Shakespeare</a>
+                        <a class="nav-link active" aria-current="page" href="#">Frieso</a>
+                        <div class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Theme</a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><button onclick="changeThemeEvent(event)" class="dropdown-item">Dark</button></li>
+                                <li><button onclick="changeThemeEvent(event)" class="dropdown-item">Light</button></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <!--MY_WRITING-->
+        <div class="poem">
+            <h1>If I could live my dreams</h1>
+            <h2>By Frieso, 2022</h2>
+            <p>The world closes its curtains<br />
+            as I listen to my demons sing<br />
+            a lullaby of solitude and fear<br />
+            of the morning yet to come</p>
+
+            <p>My eyelids they grow heavy<br />
+            I hear her voice from far away<br />
+            swift she silences my demons<br />
+            as I repose in her embrace</p>
+
+            <p>But then the morning comes<br />
+            and she leaves before I wake<br />
+            to the laughter of my demons<br />
+            at my empty hands and heart</p>
+
+            <p>If only I could live my dreams<br />
+            and the morning never comes<br />
+            she would sing a song of silence<br />
+            till her endless love is all I hear</p>
+        </div>
+
+        <!--SCRIPTS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <script src="app.js"></script>
+        <noscript>You need to enable Javascript to view the full site</noscript>
+    </body>
+</html>

@@ -1,0 +1,7 @@
+REQUIREMENTS:
+- fit both mobile and laptop
+- 4 linked HTML pages
+- Include Bootstrap
+- 10 distinct HTML tags (excluding <html>, <head>, <body>, and <title>)
+- 1+ interactive Javascript feature
+- 5 different CSS selectors (universal, element, id, class, combinator, adjacent sibling) with 5 different CSS properties (own stylesheet)
